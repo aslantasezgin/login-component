@@ -7,3 +7,11 @@
     justify-content: center;
     background-color: #76b852;
 }
+
+.lbl{
+    color: #76b852;
+    display: block;
+    padding: 6px 0px;
+    position: relative;
+    top: -9px;
+}

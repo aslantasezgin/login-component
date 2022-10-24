@@ -3,7 +3,7 @@ import propTypes from "prop-types"
 import './Input.css'
 const Input=({type,placeholder,value,onChange})=>{
     return(
-        <div><input className="custom-input" type={type} placeholder={placeholder} value={value} onChange={onChange}></input> </div>
+        <input className="custom-input" type={type} placeholder={placeholder} value={value} onChange={onChange}></input> 
     )
     
 }
